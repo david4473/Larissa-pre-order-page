@@ -33,7 +33,7 @@ export default function Home() {
               ></path>
             </svg>
           </div>
-          <div className="lg:max-w-md translate-y-[-40px] lg:translate-x-[-60px] text-center lg:text-left">
+          <div className="md:max-w-[500px] lg:max-w-md translate-y-[-40px] lg:translate-x-[-60px] text-center lg:text-left">
             <h1 className="text-5xl lg:text-7xl text-gray-900 font-bold mb-3 font-mono">
               PRE-ORDER
             </h1>
@@ -53,7 +53,7 @@ export default function Home() {
             <button className="btn mt-3 px-10">Pre-order</button>
           </div>
           <div className="relative-translate-y-16 h-fit">
-            <div className="absolute left-10 lg:left-0 bottom-[200px]">
+            <div className="absolute left-10 md:left-[60px] lg:left-[700px] bottom-[200px]">
               <div
                 onClick={() => setColor("green")}
                 className="cursor-pointer mb-4 ring-4 ring-offset-2 ring-[#959B84] bg-[#959B84] w-6 h-6 rounded-full"
