@@ -53,14 +53,14 @@ export default function Home() {
             <button className="btn mt-3 px-10">Pre-order</button>
           </div>
           <div className="relative-translate-y-16 h-fit">
-            <div className="absolute left-10 md:left-[60px] lg:left-[700px] bottom-[200px]">
+            <div className="absolute left-14 md:left-[60px] lg:left-[700px] bottom-[200px]">
               <div
                 onClick={() => setColor("green")}
-                className="cursor-pointer mb-4 ring-4 ring-offset-2 ring-[#959B84] bg-[#959B84] w-6 h-6 rounded-full"
+                className="cursor-pointer mb-4 ring-4 ring-offset-2 ring-[#959B84] bg-[#959B84] h-7 w-7 lg:w-6 lg:h-6 rounded-full"
               ></div>
               <div
                 onClick={() => setColor("black")}
-                className="cursor-pointer ring-4 ring-offset-2 ring-[#000] bg-[#000] w-6 h-6 rounded-full"
+                className="cursor-pointer ring-4 ring-offset-2 ring-[#000] bg-[#000] h-7 w-7 lg:w-6 lg:h-6 rounded-full"
               ></div>
             </div>
             {color == "green" ? (
@@ -86,7 +86,7 @@ export default function Home() {
           <div className="divider lg:divider-horizontal">OR</div>
           <div className=" h-fit flex-grow place-items-center relative">
             <Image src="/img_4.webp" width={350} height={250} />
-            <p className="text-center absolute top-0 left-1/2 transform -translate-x-1/2 lg:static">
+            <p className="text-center absolute top-0 left-1/2 transform -translate-x-1/2 lg:static lg:origin-center">
               Black
             </p>
           </div>

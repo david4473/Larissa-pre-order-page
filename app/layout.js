@@ -16,12 +16,6 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-const nanum = Nanum_Pen_Script({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-nanum",
-});
-
 const kanit = Kanit({
   subsets: ["latin"],
   weight: "400",
@@ -43,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="cupcake">
       <body
-        className={`${poppins.variable} ${ubuntu.variable} ${kanit.variable} ${nanum.variable} font-sans`}
+        className={`${poppins.variable} ${ubuntu.variable} ${kanit.variable} font-sans`}
       >
         <header>
           <Header />
