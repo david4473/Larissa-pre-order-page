@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="py-20 footer bg-neutral bg-[#2b2b2b] text-neutral-50 p-10">
+    <footer className="py-20 footer bg-[#2b2b2b] text-neutral-50 p-10">
       <aside>
         <p className="text-2xl">
           𝓛𝓪𝓻𝓲𝓼𝓼𝓪 Inc.
