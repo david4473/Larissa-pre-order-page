@@ -141,9 +141,19 @@ export default function Home() {
               ></div>
             </div>
             {color == "green" ? (
-              <Image src="/img_1.webp" width={480} height={250} />
+              <Image
+                alt="Larissa gym wear model"
+                src="/img_1.webp"
+                width={480}
+                height={250}
+              />
             ) : (
-              <Image src="/img_3.webp" width={480} height={250} />
+              <Image
+                alt="Larissa gym wear model"
+                src="/img_3.webp"
+                width={480}
+                height={250}
+              />
             )}
           </div>
         </div>
@@ -184,16 +194,36 @@ export default function Home() {
           </div>
           <div className="flex">
             <div>
-              <Image src="/img_2.webp" width={250} height={150} />
+              <Image
+                alt="Larissa gym wear model"
+                src="/img_2.webp"
+                width={250}
+                height={150}
+              />
             </div>
             <div>
-              <Image src="/img_4.webp" width={250} height={150} />
+              <Image
+                alt="Larissa gym wear model"
+                src="/img_4.webp"
+                width={250}
+                height={150}
+              />
             </div>
             <div>
-              <Image src="/img_1.webp" width={250} height={150} />
+              <Image
+                alt="Larissa gym wear model"
+                src="/img_1.webp"
+                width={250}
+                height={150}
+              />
             </div>
             <div>
-              <Image src="/img_3.webp" width={250} height={150} />
+              <Image
+                alt="Larissa gym wear model"
+                src="/img_3.webp"
+                width={250}
+                height={150}
+              />
             </div>
           </div>
         </div>
