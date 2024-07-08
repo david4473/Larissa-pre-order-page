@@ -127,7 +127,9 @@ export default function Home() {
               durability, and style that will make you look sweet while getting
               that summer body.
             </p>
-            <button className="btn mt-3 px-10">Pre-order</button>
+            <a href="#form">
+              <button className="btn mt-3 px-10">Pre-order</button>
+            </a>
           </div>
           <div className="relative-translate-y-16 h-fit">
             <div className="absolute left-14 md:left-[60px] lg:left-[700px] bottom-[200px]">
