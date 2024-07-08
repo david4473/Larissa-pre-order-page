@@ -1,10 +1,4 @@
-import {
-  Inter,
-  Poppins,
-  Ubuntu,
-  Kanit,
-  Nanum_Pen_Script,
-} from "next/font/google";
+import { Inter, Poppins, Ubuntu, Kanit } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
