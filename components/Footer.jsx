@@ -8,7 +8,7 @@ function Footer() {
           𝓛𝓪𝓻𝓲𝓼𝓼𝓪 Inc.
           <br />
           <span className="text-lg">
-            Providing reliable gym wear since 2005
+            Providing reliable gym wear since 2015
           </span>
         </p>
       </aside>

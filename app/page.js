@@ -88,7 +88,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between ">
       <section
-        className="hero min-h-screen"
+        className="hero h-fit"
         style={{
           backgroundImage: "url('/gym-bg.webp')",
         }}
